@@ -1,0 +1,16 @@
+create database modelo_CL2_DAWII;
+use modelo_CL2_DAWII;
+
+
+create table tb_producto
+(
+ IdArticulo int primary key auto_increment,
+ nombre varchar(25),
+ marca varchar(25),
+ precio double,
+ stock int
+);
+
+insert into tb_producto values(1,'cpu','asus',1260.5,10);
+insert into tb_producto values(2,'mouse','logitec',35.50,23);
+
